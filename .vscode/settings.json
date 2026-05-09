@@ -1,5 +1,16 @@
 {
     "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.tabCompletion": "off",
+    "editor.wordBasedSuggestions": "off",
+    "editor.parameterHints.enabled": false,
+    "editor.snippetSuggestions": "none",
     "files.associations": {
         "*.c": "c",
         "*.h": "c"
@@ -8,7 +19,8 @@
     "C_Cpp.default.configurationProvider": "ms-vscode.cpptools",
     "C_Cpp.errorSquiggles": "enabled",
     "C_Cpp.intelliSenseEngine": "default",
-    "C_Cpp.autocomplete": "default",
+    "C_Cpp.autocomplete": "disabled",
+    "C_Cpp.suggestSnippets": false,
     "terminal.integrated.env.windows": {
         "PATH": "${env:PATH};D:\\Program Files\\visual studio\\visual studio\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64;D:\\Program Files\\visual studio\\visual studio\\VC\\Auxiliary\\Build",
         "INCLUDE": "${env:INCLUDE};D:\\Program Files\\visual studio\\visual studio\\VC\\Tools\\MSVC\\14.50.35717\\include;D:\\Program Files\\visual studio\\visual studio\\VC\\Auxiliary\\VS\\include",
@@ -29,5 +41,6 @@
             "icon": "terminal-cmd"
         }
     },
-    "terminal.integrated.defaultProfile.windows": "Developer Command Prompt"
+    "terminal.integrated.defaultProfile.windows": "Developer Command Prompt",
+    "editor.suggest.snippetsPreventQuickSuggestions": true
 }
