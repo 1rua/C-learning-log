@@ -1,0 +1,33 @@
+{
+    "editor.inlineSuggest.enabled": false,
+    "files.associations": {
+        "*.c": "c",
+        "*.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "D:\\Program Files\\visual studio\\visual studio\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cpptools",
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.autocomplete": "default",
+    "terminal.integrated.env.windows": {
+        "PATH": "${env:PATH};D:\\Program Files\\visual studio\\visual studio\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64;D:\\Program Files\\visual studio\\visual studio\\VC\\Auxiliary\\Build",
+        "INCLUDE": "${env:INCLUDE};D:\\Program Files\\visual studio\\visual studio\\VC\\Tools\\MSVC\\14.50.35717\\include;D:\\Program Files\\visual studio\\visual studio\\VC\\Auxiliary\\VS\\include",
+        "LIB": "${env:LIB};D:\\Program Files\\visual studio\\visual studio\\VC\\Tools\\MSVC\\14.50.35717\\lib\\x64;D:\\Program Files\\visual studio\\visual studio\\VC\\Auxiliary\\VS\\lib\\x64"
+    },
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": "cmd.exe",
+            "icon": "terminal-cmd"
+        },
+        "Developer Command Prompt": {
+            "path": "cmd.exe",
+            "args": ["/k", "\"D:\\Program Files\\visual studio\\visual studio\\VC\\Auxiliary\\Build\\vcvars64.bat\""],
+            "icon": "terminal-cmd"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Developer Command Prompt"
+}
