@@ -42,5 +42,9 @@
         }
     },
     "terminal.integrated.defaultProfile.windows": "Developer Command Prompt",
-    "editor.suggest.snippetsPreventQuickSuggestions": true
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "github.copilot.enable": {
+        "*": false
+    },
+    "trae.enableAddToChatTips": false
 }
