@@ -46,5 +46,10 @@
     "github.copilot.enable": {
         "*": false
     },
-    "trae.enableAddToChatTips": false
+    "trae.enableAddToChatTips": true,
+    "trae.enableInlineCommand": true,
+    "trae.tab.enableTabKeyboardShortcuts": false,
+    "trae.tab.cue": false,
+    "trae.tab.enableRename": false,
+    "trae.tab.enableAutoImport": false
 }
