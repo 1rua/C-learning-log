@@ -11,5 +11,5 @@ int main(void){
     };
     printf("f(%.2f) = %.2f\n" , x , f);
     return 0;
-        
+    
 }
