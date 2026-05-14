@@ -24,3 +24,21 @@
 // 64 MB
 // 栈限制
 // 8192 KB
+#include <stdio.h>
+#include <math.h>
+int n , m ;
+double c , fact();
+int main(void){
+    scanf("%d %d" , &m , &n);
+    c = fact(n) / ( fact(m) * fact(n - m) );
+    printf("result = %.0f" , c);
+    return 0;
+};
+double fact(int n){
+    int a;
+    double result = 1.0;
+    for(a = 1 ; a <= n ; a += 1){
+    result *= a;
+    }
+return result;
+}
