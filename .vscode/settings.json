@@ -1,6 +1,7 @@
 {
     "editor.inlineSuggest.enabled": false,
         "editor.quickSuggestions": {
+            
         "other": true,
         "comments": false,
         "strings": false
