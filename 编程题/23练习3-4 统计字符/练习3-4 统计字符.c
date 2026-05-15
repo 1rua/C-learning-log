@@ -27,3 +27,26 @@ letter = 4, blank = 3, digit = 2, other = 1
 栈限制
 8192 KB */
 #include <stdio.h>
+
+int main(void){
+    int ch , i;
+    int letter = 0 , blank = 0 , digit = 0 , other = 0;
+    for(i = 0 ; i < 10 ; i++){
+        ch = getchar();
+        if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')){
+            letter++;
+        } 
+        else if(ch == ' ' || ch == '\n'){ 
+            blank++;
+        }
+        else if(ch >= '0' && ch <= '9'){
+            digit++;
+        }
+        else {
+            other++;
+        }
+    }
+    printf("letter = %d, blank = %d, digit = %d, other = %d" , letter , blank , digit , other);
+    return 0;
+        
+} 
