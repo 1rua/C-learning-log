@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "C-learning-log-1",
+			"path": "../C-learning-log-1"
+		}
+	],
+	"settings": {
+		"trae.tab.enableRename": false,
+		"trae.tab.enableAutoImport": false
+	}
+}
