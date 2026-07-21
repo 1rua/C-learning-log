@@ -1,7 +1,72 @@
-﻿#include <stdio.h>
+﻿/* 练习3-8 查询水果价格
+分数 15
+作者 C课程组
+单位 浙江大学
+
+给定四种水果，分别是苹果（apple）、梨（pear）、桔子（orange）、葡萄（grape），单价分别对应为3.00元/公斤、2.50元/公斤、4.10元/公斤、10.20元/公斤。
+
+首先在屏幕上显示以下菜单：
+[1] apple
+[2] pear
+[3] orange
+[4] grape
+[0] exit
+
+用户可以输入编号1~4查询对应水果的单价。当连续查询次数超过5次时，程序应自动退出查询；不到5次而用户输入0即退出；输入其他编号，显示价格为0。
+输入格式:
+
+输入在一行中给出用户连续输入的若干个编号。
+输出格式:
+
+首先在屏幕上显示菜单。然后对应用户的每个输入，在一行中按格式“price = 价格”输出查询结果，其中价格保留两位小数。当用户连续查询次数超过5次、或主动输入0时，程序结束。
+输入样例1:
+3 -1 0 2
+输出样例1:
+[1] apple
+[2] pear
+[3] orange
+[4] grape
+[0] exit
+price = 4.10
+price = 0.00
+输入样例2:
+1 2 3 3 4 4 5 6 7 8
+输出样例2:
+[1] apple
+[2] pear
+[3] orange
+[4] grape
+[0] exit
+price = 3.00
+price = 2.50
+price = 4.10
+price = 4.10
+price = 10.20
+代码长度限制
+16 KB
+时间限制
+400 ms
+内存限制
+64 MB
+栈限制
+8192 KB */
+#include <stdio.h>
 
 int main(void) {
-
+    int i , a;
+    double apple = 3.00 , pear = 2.50 , orange = 4.10 , grape = 10.20;
+    double fruit[4] = {apple , pear , orange , grape};
+    printf("[1] apple\n[2] pear\n[3] orange\n[4] grape\n[0] exit\n");
+    
+    for(a = 0 ; a < 5 ; a++){
+        scanf("%d" , &i);
+        if(i == 0){
+            break;
+        }
+        else{
+            printf("price = %.2f\n" , fruit[i-1]);
+        }
+    }
     return 0;
 }
 
