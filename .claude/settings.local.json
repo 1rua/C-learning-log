@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Skill(claude-md-management:revise-claude-md)",
-      "Skill(claude-md-management:revise-claude-md:*)"
+      "Skill(claude-md-management:revise-claude-md:*)",
+      "Bash(sort -t'题' -k2)"
     ]
   }
 }
