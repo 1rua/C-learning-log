@@ -26,7 +26,7 @@
     "github.copilot.enable": {
         "*": false
     },
-    "trae.enableAddToChatTips": true,
+    "trae.enableAddToChatTips": false,
     "trae.enableInlineCommand": true,
     "trae.tab.enableTabKeyboardShortcuts": false,
     "trae.tab.cue": false,
