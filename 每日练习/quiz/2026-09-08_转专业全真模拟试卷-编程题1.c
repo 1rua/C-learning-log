@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <math.h>
 int main(void){
-    int s = 0 , n , i;
-    scanf("%d" , &n);
+    double s = 0 , n , i;
+    scanf("%lf" , &n);
     for(i = 1 ; i < n ; i++){
-        s = s + (pow(-1 , n-1) * n / (2*n - 1));
+        s = s + (pow(-1 , i-1) * n / (2.0*i - 1.0));
 }
-    printf("%d" , s);
+    printf("%.3f" , s);
     return 0;
 }
 /* ### 第 1 题：求交错序列前 N 项和（8分）
